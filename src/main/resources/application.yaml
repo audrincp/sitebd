@@ -3,7 +3,7 @@ server:
 
 spring:
     datasource:
-        url: jdbc:postgresql://localhost:5432/dbzinho
+        url: jdbc:postgresql://dbzinho.postgresql.dbaas.com.br:5432/dbzinho
         username: postgres
         password: root
         driver-class-name: org.postgresql.Driver
