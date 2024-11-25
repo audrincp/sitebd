@@ -5,6 +5,6 @@ COPY mvnw .
 COPY .mvn .mvn
 COPY src ./src
 RUN chmod 777 mvnw
-RUN ./mvnw package
+RUN ./mvn package
 RUN ls -l ./target
 CMD ["java", "-jar", "target/crud-0.0.1-SNAPSHOT.war"]
