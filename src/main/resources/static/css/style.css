@@ -1,0 +1,74 @@
+/* CSS para a página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza verticalmente os elementos */
+    justify-content: center; /* Centraliza os elementos na vertical */
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-color: #008000; /* Fundo verde */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    color: white;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #004d00;
+    color: white;
+}
+
+input[type="submit"], a {
+    text-decoration: none;
+    background-color: #004d00;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover, a:hover {
+    background-color: #006600;
+}
+
+input[type="text"] {
+    display: block; /* Alinha os campos de texto verticalmente */
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto; /* Espaçamento vertical entre os campos */
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Arredonda os campos de texto */
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Garante que os elementos do formulário fiquem alinhados verticalmente */
+    align-items: center; /* Centraliza os campos no formulário */
+    margin: 0;
+}
+
+a {
+    margin-top: 20px;
+    display: inline-block;
+}
